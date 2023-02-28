@@ -1,0 +1,229 @@
+:root {
+    --background-color-- : rgb(80, 97, 255);
+}
+
+/* all body style */
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 80px;
+    background: rgb(0, 0, 0);
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 1);
+    position: fixed;
+}
+
+.logo{
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 2%;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+nav ul a{
+    text-decoration: none;
+}
+
+
+nav ul li a:before{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background: rgb(255, 0, 0);
+    transform: scalex(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+    
+}
+
+nav ul li a:hover::before{
+    transform: scalex(1);
+    transform-origin: left;
+}
+
+
+/* footer style */
+footer{
+    background-color: rgba(0, 0, 0, 0.692);
+    text-align: center;
+    padding-bottom: 1%;
+    font-size: 2vw;
+    margin-top: 2%;
+}
+
+footer div p{
+    color: white;
+    margin-top: -0.5%;
+}
+
+.f-g{
+    width: 5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
+    
+}
+
+.c-img{
+    width: 2%;
+    height: 1%;
+    margin-right: 2%;
+}
+
+.s-m{
+
+}
+
+.grp{
+    margin-top: 3%;
+}
+
+.copy{
+
+    margin-top: 10%;
+}
+
+
+
+/*mobil-menu-style*/
+
+@media only screen and (max-width:943px) { 
+    
+
+
+    .nav-icon::before{
+        background: #ffffff;
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        top: 8px;
+    }
+    
+    .nav-icon::after{
+        background: #ffffff;
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        top: -8px;
+    }
+    
+    nav ul li a{
+        position: relative;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    .menu{
+        clear: both;
+        max-width: 0;
+        transition: max-height .2s ease-out;
+    }
+    .menu-icon{
+        padding: 38px 20px;
+        position: relative;
+        float: right;
+        cursor: pointer;
+    }
+
+    nav ul li{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        overflow: hidden;
+    }
+
+    .nav-icon {
+        background: #ffffff;
+        display: block;
+        height: 3px;
+        width: 25px;
+        position: relative;
+        transition: background .2s ease-out;
+    }
+
+
+    .menu-btn{
+        display: none;
+    }
+
+    .menu-btn:checked ~ .menu {
+        max-width: 100%;
+        background: rgb(71, 71, 71);
+        text-align: center;
+    }
+
+    .menu-btn:checked ~ .menu-icon .nav-icon{
+        background: transparent;
+    }
+
+    .menu-btn:checked ~ .menu-icon .nav-icon::before{
+        transform: rotate(-45deg);
+        top: 0;
+    }
+
+    .menu-btn:checked ~ .menu-icon .nav-icon::after{
+        transform: rotate(45deg);
+        top: 0;
+    }
+
+}
+
+
+
+
+
+
+/*desktop-menu-style*/
+
+@media only screen and (min-width:944px) {
+
+        
+
+    .menu-btn, .menu-icon, .nav-icon{
+        display: none;
+    }
+
+    nav ul{
+        float: right;
+        margin-right: 25px;
+    }
+
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 18px;
+        
+    }
+    
+    nav ul li a {
+        position: relative;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+}
+
