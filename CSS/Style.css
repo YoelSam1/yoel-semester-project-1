@@ -789,6 +789,20 @@ body {
         width: 55%;
         margin-top: -30%;
     }
+
+    #holiday-club-img{
+        display: block;
+        margin-left: auto;
+        width: 45%;
+        margin-top: -20%;
+    }
+
+    #museum-guided-tour-img{
+        display: block;
+        margin-left: auto;
+        width: 48%;
+        margin-top: -30%;
+    }
     
     #text-1{
         margin-right: 43%;
