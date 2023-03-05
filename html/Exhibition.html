@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/meny.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <meta name="description" content="CommunityScienceMuseum Explore page. We have created different Exhibition space, take a look a Exhibition page what you can expect to view on our museum">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&family=Roboto+Mono:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <title>Exhibition</title>
+    <link rel="stylesheet" href="../css/meny.css">
+    <link rel="stylesheet" href="../css/grp-style.css">
 </head>
 <body>
-    <header class="header">
+       <!-- header -->
+       <header class="header">
         <nav>
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn">
                 <span class="nav-icon"></span>
             </label>
 
-            <a href="../index.html"><img src="../img/logo.png" alt="logo" class="logo"></a>
+            <a href="../index.html"><img src="../pic/logo.png" alt="logo" class="logo"></a>
 
             <ul class="menu">
                 <li><a href="../index.html">Home</a></li>
@@ -31,256 +33,131 @@
             </ul>
         </nav>
     </header>
-
+    
+    <!-- main -->
     <main>
         <div>
-            <img src="../img/solar-system.jpg" alt="solar-system" class="solar-system">
+            <img src="../pic/solar-system.jpg" alt="solar-system" class="solar-system-img">
         </div>
 
-        <section class="mobile-style">
+        <!-- mobile -->
+        <section class="mobile">
+            <div class="link-box">
+                <h1 class="h1-style">Explore</h1>
+                <a href="#Cosmology" class="link" id="lightblue">Cosmology</a>
+                <a href="#Evolution" class="link" id="orange">Evolution</a>
+                <a href="#Ecology" class="link" id="green">Ecology</a>
+            </div>
+
+            <div class="link-box">
+                <a href="#BiologyandMedicine" class="link" id="grey">Biology and Medicine</a>
+                <a href="#RoboticsandAI" class="link" id="yellow">Robotics and AI</a>
+            </div>
+
+            <div class="img-box">
+                <img src="../pic/global-danger.webp" alt="global-danger" class="img">
+                <img src="../pic/Woolly.jpg" alt="/historical" class="img">
+                <img src="../pic/solar.jpg" alt="records-laboratory" class="img">
+            </div>
+
+            <img src="../pic/museum.png" alt="museum" class="museum">
+
+
+            <div class="lightblue-box" id="Cosmology">
+                <p class="intro-text">Cosmology</p>
+                <p class="bold-text">Explore the wonders of our cosmos</p>
+                <p class="normal-text">Explore the wonders of our cosmos. Our fantastic exhibition, 'The Sky Above Us', explores the night sky and what we can see and know about the universe around us. We'll locate the various constellations and galaxies that can be seen and learn a bit about the early navigators who used the stars to travel by.</p>
+                <p class="bold-text">Journey of our solar exploration</p>
+                <p class="normal-text">Follow the journey of our solar exploration: from early Arab traders, to Galileo's telescope, to the latest exploration of the planets in our solar system.</p>
+
+                <div class="img-box">
+                    <img src="../pic/night-sky.jpg" alt="night-sky" class="content-img">
+                    <img src="../pic/galaxies.webp" alt="pic/galaxies" class="content-img">
+                    <img src="../pic/solar.jpg" alt="solar" class="content-img">
+                </div>
+            </div>
+
+            <div class="orange-box" id="Evolution">
+                <p class="intro-text">Evolution</p>
+                <p class="bold-text">Explore evolution of human</p>
+                <p class="normal-text">For centuries, philosophers and scientists have wrestled with the question of our origins. Where do we come from and how did we get here? Since Darwin proposed his theory of evolution we have had a framework for exploring and understanding our place in this world.</p>
+                <p class="bold-text">Journey of our solar exploration</p>
+                <p class="normal-text">Discover the origins of life on this planet and how the species we know today have evolved our time. You can also take some time to meet a few of the creatures who didn't survive, including our Woolly Mammoth, the Dodos, and a number of dinosaurs too.</p>
+
+                <div class="img-box">
+                    <img src="../pic/human-bone.png" alt="museum-guided-tour" class="content-img">
+                    <img src="../pic/museum-guide.png" alt="presentation" class="content-img">
+                    <img src="../pic/Woolly-Mammoth.jpg" alt="Woolly-Mammoth" class="content-img">
+                </div>
+            </div>
+
+            <div class="green-box" id="BiologyandMedicine">
+                <p class="intro-text-2">Biology and Medicine</p>
+                <p class="bold-text">micro-organisms to the human body</p>
+                <p class="normal-text">From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights into the great wonders of the tiny world.</p>
+                <p class="bold-text">Life expectancy and quality life</p>
+                <p class="normal-text">For many people their life expectancy is much longer and their quality of life much improved, thanks to the growth of our understanding of medicine. Over a series of exhibits we explore the history of medicine and take a look at some major breakthroughs including the discovery of penicillin and the first heart transplant.</p>
+                <p class="bold-text">our great medicinal discoveries </p>
+                <p class="normal-text">Many of our great medicinal discoveries have come not only from the lab, but also from observing animals in the wild. Often our fellow creatures have beat us to it.</p>
+
+                <div class="img-box">
+                    <img src="../pic/museum-lab.png" alt="museum-guided-tour" class="content-img">
+                    <img src="../pic/heart.jpg" alt="presentation" class="content-img">
+                    <img src="../pic/learning-science.jpg" alt="Woolly" class="content-img">
+                </div>
+            </div>
+
             
-            <div class="k-t-r-tag">
-                <h1 class="e-tag">Exhibition</h1>
-                <a href="#cosmology" class="k-t-r" id="f">Cosmology</a>
-                <a href="#evolution" class="k-t-r" id="t">Evolutions</a>
-                <a href="#ecology" class="k-t-r" id="r">Ecology</a>
-            </div>
-    
-            <div class="k-t-r-tag">
-                <a href="#robotics-and-AI" class="k-t-r" id="r-a">Robotics and AI</a>
-                <a href="#biology-and-Medicine" class="k-t-r" id="b-m">Biology and Medicine</a>
-            </div>
-    
-            <img src="../img/museum.png" alt="museum" class="museum">
+            <div class="grey-box" id="RoboticsandAI">
+                <p class="intro-text">Robotics and AI</p>
+                <p class="bold-text">Explore evolution of human</p>
+                <p class="normal-text">The information revolution is here and robotics and artificial intelligence are the science of the future. From useful home applications of AI to industrial uses of robotics, the future is here. You can even say hello and shake the hand of Rob the Robot.</p>
 
-            <div class="r-m-1" id="cosmology">
-                <h4 class="h4-tag">Cosmology</h4>
-                <p class="li-tag">Explore the wonders of our cosmos.</p>
-                <p>Our fantastic exhibition, 'The Sky Above Us', explores the night sky</p>
-                <p>and what we can see and know about the universe around us.</p>
-                <img src="../img/night-sky.jpg" alt="night-sky" class="l-s">
-                <p class="li-tag">Follow the journey of our solar exploration</p>
-                <p>from early Arab traders, to Galileo's telescope</p>
-                <img src="../img/galaxies.jpg" alt="galaxies" class="l-s">
-                <p class="li-tag">to the latest exploration of the planets in our solar system.</p>
-                <img src="../img/solar.jpg" alt="solar" class="l-s">
-            </div>
-
-            <div class="r-m-2" id="evolution">
-                <h4 class="h4-tag">Evolution</h4>
-                <p class="li-tag">For centuries, philosophers and scientists</p>
-                <img src="../img/earth-Evolution.jpg" alt="earth-Evolution" class="l-s">
-                <p>have wrestled with the question of our origins.</p>
-                <p>Where do we come from?</p>
-                <p>how did we get here?</p>
-                <p class="li-tag">Since Darwin proposed his theory of evolution </p>
-                <img src="../img/human-Evolution.jpg" alt="human-Evolution" class="l-s">
-                <p>we have had a framework for exploring</p>
-                <p>and understanding our place in this world.</p>
-                <p class="li-tag">Discover the origins of life on this planet</p> 
-                <img src="../img/animal-evolusion.webp" alt="animal-evolusion" class="l-s">
-                <p>and how the species we know today have evolved our time.</p>
-                <p>You can also take some time to meet a few of the creatures who didn't survive, including our Woolly Mammoth,</p>
-                <p class="li-tag">the Dodos</p>
-                <img src="../img/dodos.webp" alt="dodos" class="l-s">
-                <img src="" alt="">
-                <p>and a number of dinosaurs too</p>
-            </div>
-
-            <div class="r-m-3" id="biology-and-Medicine">
-                <h4 class="h4-tag">Biology and Medicine</h4>
-                <p class="li-tag">From micro-organisms to the human body</p>
-                <p>, major breakthroughs in biology are offering us unique insights into the great wonders of the tiny world.</p>
-                <img src="../img/Biology-Medicine.webp" alt="Biology-Medicine" class="l-s">
-                <p>For many people their life expectancy is much longer and their quality of life much improved, thanks to the growth of our understanding of medicine. Over a series of exhibits we explore the history of medicine and take a look at some major breakthroughs including the discovery of penicillin and</p>
-                <p class="li-tag">the first heart transplant.</p>
-                <img src="../img/heart.jpg" alt="heart" class="l-s">
-                <p>Many of our great medicinal discoveries have come not only from the lab, but also from observing animals in the wild. Often our fellow creatures have beat us to it.</p>
-            </div>
-
-            <div class="r-m-4" id="robotics-and-AI">
-                <h4 class="h4-tag">Robotics and AI</h4>
-                <p class="li-tag">The information revolution is here </p>
-                <img src="../img/robot.webp" alt="robot" class="l-s">
-                <p>and robotics and artificial intelligence are the science of the future. From useful home applications of AI to industrial uses of robotics, the future is here.</p>
-                <p class="li-tag">You can even say hello and shake the hand of Rob the Robot.</p>
-                <img src="../img/robot-shakehand.webp" alt="robot-shakehand" class="l-s">
-            </div>
-
-            <div class="r-m-5" id="ecology">
-                <h4 class="h4-tag">Ecology</h4>
-                <p class="li-tag">As we learn more and more of the impact humans are having on the planet</p>
-                <img src="../img/Ecology.webp" alt="Ecology" class="l-s">
-                <p>the more important it becomes that scientists explore how to create a sustainable future not just for humans but for the whole planet.</p>
-                <p class="li-tag">In our ecology section of the museum</p>
-                <img src="../img/global-danger.webp" alt="global-danger" class="l-s">
-                <p>we unpack the dangers we currently face including</p>
-                <p class="li-tag">global warming, extinction of species, and pollution.</p>
-                <p>But we also focus on the positive ways we can all contribute to a brighter future.</p>
-            </div>  
-        </section>
-
-        <section class="desktop-style">
-
-            <div class="k-t-r-tag">
-                <h1 class="e-tag">Exhibition</h1>
-                <a href="#Cosmology" class="k-t-r" id="f">Cosmology</a>
-                <a href="#Evolution" class="k-t-r" id="t">Evolutions</a>
-                <a href="#Ecology" class="k-t-r" id="r">Ecology</a>
-            </div>
-    
-            <div class="k-t-r-tag">
-                <a href="#Robotics-and-AI" class="k-t-r" id="r-a">Robotics and AI</a>
-                <a href="#Biology-and-Medicine" class="k-t-r" id="b-m">Biology and Medicine</a>
-            </div>
-    
-            <img src="../img/museum.png" alt="museum" class="museum">
-
-            <div class="r-m-1" id="Cosmology">
-                <h4 class="h4-tag">Cosmology</h4>
-                <div class="inline-1">
-                    <p class="li-tag">Explore the wonders of our cosmos.</p>
-                    <p>Our fantastic exhibition,</p>
-                    <p>'The Sky Above Us', explores the night sky</p>
-                    <p>and what we can see</p>
-                    <p>and know about the universe around us.</p>
-                </div>
-                <img src="../img/night-sky.jpg" alt="night-sky" class="l-s" id="night-sky-img">
-
-                <div class="inline-1">
-                    <p class="li-tag">Follow the journey of our solar exploration</p>
-                    <p>from early Arab traders, to Galileo's telescope</p>
-                </div>
-                <img src="../img/galaxies.jpg" alt="galaxies" class="l-s" id="galaxies-img">
-
-                <div class="inline-1">
-                    <p class="li-tag">To the latest exploration</p>
-                    <p>of the planets in our solar system.</p>
-                </div>
-                <img src="../img/solar.jpg" alt="solar" class="l-s" id="solar-img">
-            </div>
-
-            <div class="r-m-2" id="Evolution">
-                <h4 class="h4-tag">Evolution</h4>
-                <div class="inline-1">
-                    <p class="li-tag">For centuries, philosophers and scientists</p>
-                    <p>have wrestled with the question of our origins.</p>
-                    <p>Where do we come from?</p>
-                    <p>how did we get here?</p>
-                </div>
-                <img src="../img/earth-Evolution.jpg" alt="earth-Evolution" class="l-s" id="earth-Evolution-img">
-                
-                <p class="li-tag">Since Darwin proposed his theory of evolution </p>
-                <p>we have had a framework for exploring</p>
-                <p>and understanding our place in this world.</p>
-                <img src="../img/human-Evolution.jpg" alt="human-Evolution" class="l-s">
-                
-                <p class="li-tag">Discover the origins of life on this planet</p>
-                <img src="../img/animal-evolusion.webp" alt="animal-evolusion" class="l-s">
-                <p>and how the species we know today have evolved our time.</p>
-                <p>You can also take some time to meet a few of the creatures who didn't survive, including our Woolly Mammoth,</p>
-                
-                <div class="inline-6">
-                    <p class="li-tag">The Dodos</p>
-                </div>
-                <div class="inline">
-                    <img src="../img/dodos.webp" alt="dodos" class="l-s" id="l-right3">
-                    <p>and a number of dinosaurs too</p>
+                <div class="img-box">
+                    <img src="../pic/children-robot.jpg" alt="children-robot" class="content-img">
+                    <img src="../pic/museum-robot.jpg" alt="presentation" class="content-img">
+                    <img src="../pic/new-tech.png" alt="Woolly" class="content-img">
                 </div>
             </div>
 
-            <div class="r-m-3" id="Biology-and-Medicine">
-                <h4 class="h4-tag">Biology and Medicine</h4>
-                <div class="inline-1">
-                    <p class="li-tag">From micro-organisms to the human body</p>
-                    <p>major breakthroughs in biology are offering us</p>
-                    <p>unique insights into the great</p>
-                    <p>wonders of the tiny world.</p>
-                </div>
-                <img src="../img/Biology-Medicine.webp" alt="Biology-Medicine" class="l-s" id="Biology-Medicine-img">
+            <div class="yellow-box" id="Ecology">
+                <p class="intro-text">Ecology</p>
+                <p class="bold-text">Impact humans having on Earth</p>
+                <p class="normal-text">As we learn more and more of the impact humans are having on the planet, the more important it becomes that scientists explore how to create a sustainable future not just for humans but for the whole planet.</p>
+                <p class="bold-text">Ecology section of the museum</p>
+                <p class="normal-text">In our ecology section of the museum, we unpack the dangers we currently face including global warming, extinction of species, and pollution. But we also focus on the positive ways we can all contribute to a brighter future.</p>
 
-                <div class="inline-1">
-                    <p>For many people their life expectancy is much longer and their quality of life much improved, thanks to the growth of our understanding of medicine. Over a series of exhibits we explore the history of medicine and take a look at some major breakthroughs including the discovery of penicillin and</p>
+                <div class="img-box">
+                    <img src="../pic/museum-garden.jpg" alt="museum-guided-tour" class="content-img">
+                    <img src="../pic/global-danger.webp" alt="presentation" class="content-img">
+                    <img src="../pic/ecology-future.jpg" alt="Woolly" class="content-img">
                 </div>
-                <p class="li-tag" id="heart-tag">The first heart transplant.</p>
-                <div class="inline-1">
-                <p>Many of our great medicinal discoveries</p>
-                <p>have come not only from the lab</p>
-                <p>but also from observing animals in the wild.</p>
-                <p>Often our fellow creatures have beat us to it.</p>
-                </div>
-                <img src="../img/heart.jpg" alt="heart" class="l-s" id="heart-img">
             </div>
-
-            <div class="r-m-4" id="Robotics-and-AI">
-                <h4 class="h4-tag">Robotics and AI</h4>
-                <div class="inline-1">
-                    <p class="li-tag">The information revolution is here </p>
-                    <p>Robotics and artificial intelligence</p>
-                    <p>the future is here</p>
-                    <p>are the science of the future</p>
-                    <p>From useful home applications of</p>
-                    <p>AI to industrial uses of robotics</p>
-                    <p>the future is here.</p>
-                </div>
-                <img src="../img/robot.webp" alt="robot" class="l-s" id="robot-img">
-                
-                <div class="inline-1">
-                    <p class="li-tag">You can even say hello and </p>
-                    <p>shake the hand of Rob the Robot</p>
-                </div>
-                <img src="../img/robot-shakehand.webp" alt="robot-shakehand" class="l-s" id="robot-shakehand-img">
-            </div>
-
-            <div class="r-m-5" id="Ecology">
-                <h4 class="h4-tag">Ecology</h4>
-                <div class="inline-1">
-                    <p class="li-tag">As we learn more and more of the</p>
-                    <p class="li-tag">impact humans are having on the planet</p>
-                </div>
-                <img src="../img/Ecology.webp" alt="Ecology" class="l-s" id="Ecology-img">
-                <p>the more important it becomes that scientists explore how to create a sustainable future not just for humans but for the whole planet.</p>
-                
-                <img src="../img/global-danger.webp" alt="global-danger" class="l-s" id="global-danger-img">
-                <div class="inline-7">
-                    <p class="li-tag">In our ecology section of the museum</p>
-                    <p>we unpack the dangers we currently face including</p>
-                    <p class="li-tag">global warming, extinction of species, and pollution.</p>
-                    <p>But we also focus on the positive ways we can all contribute to a brighter future.</p>
-                </div>
-            </div>  
         </section>
     </main>
 
+    <!-- footer -->
     <footer>
-
         <div class="s-m">
-            <img src="../img/icon-Facebook.png" alt="icon -Facebook" class="f-g">
-            <img src="../img/icon-Instagram.png" alt="icon-Instagram" class="f-g">
+            <img src="../pic/icon-Facebook.png" alt="icon -Facebook" class="f">
+            <img src="../pic/icon-Instagram.png" alt="icon-Instagram" class="g">
         </div>
-
-        <div class="grp">
-            <img src="../img/icon-mail.png" alt="icon-mail" class="c-img"> 
-            <p>CommunityScienceMuseum@info.com</p>
+        
+        <div>
+            <p class="c-u-text">CONTACT US</p>
         </div>
-
+        
         <div class="grp">
-            <img src="../img/icon-Phone.png" alt="icon-Phone" class="c-img">
             <p>+47 2342424</p>
         </div>
 
         <div class="grp">
-            <img src="../img/icon-Map.png" alt="icon-Map" class="c-img">
-            <p>Community Science Museum</p>
-            <p>Museum 38</p>
-            <p>500 Oslo street</p>
+            <p>CommunityScienceMuseum@info.com</p>
         </div>
         
-
         <div class="copy">
             <p>&copy; 2023 Community Science Museum</p>
         </div>
-
     </footer>
 </body>
 </html>
