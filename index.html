@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/meny.css">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="CommunityScienceMuseum home page. Welcome and hope you visit us">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&family=Roboto+Mono:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/meny.css">
+    <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
+    <!-- head -->
     <header class="header">
         <nav>
             <input class="menu-btn" type="checkbox" id="menu-btn" />
@@ -19,7 +21,7 @@
                 <span class="nav-icon"></span>
             </label>
 
-            <a href="index.html"><img src="img/logo.png" alt="logo" class="logo"></a>
+            <a href="index.html"><img src="pic/logo.png" alt="logo" class="logo"></a>
 
             <ul class="menu">
                 <li><a href="index.html">Home</a></li>
@@ -30,119 +32,135 @@
                 <li><a href="html/get-Involved.html">Get Involved</a></li>
             </ul>
         </nav>
-       
     </header>
 
+    <!-- main -->
     <main>
-        <div>
-            <img src="img/solar-system.jpg" alt="solar-system" class="solar-system">
-        </div>
-
-        <div class="CSM-tag">
-            <h1 class="csm-tag">Community Science Museum</h1>
-            <a href="html/Explore.html" class="explore">Explore</a>
-            <a href="#r-m" class="read-more">Read more</a>
-            <p class=Explore-together>"Explore together"</p>
-            <p>Come join us at the Community Science Museum where were committed to making science accessible to all.</p>
-        </div>
-
-        <div class="inline-img">
-            <img src="img/Woolly.jpg" alt="Woolly" class="Woolly">
-            <img src="img/historical.jpg" alt="historical" class="historical">
-        </div>
-
-        <div class="m">
-            <img src="img/museum.png" alt="museum" class="museum">
-        </div>
-        
-        <div class="m"><h2 class="p-d">OPENING HOURS</h2></div>
-
-        <div class="p-h-2">
-            <p>Mon: Closed</p>
-            <p>Tues-thurs: 10:00-16:00</p>
-            <p>Fri: 10:00-19:00</p>
-            <p>Satur: 9:00-16:00</p>
-            <p>Sun: 9:00-13:00</p>
-        </div>
-        
-
-        <div class="p-h">
-            <h2 class="opening-tag">OPENING HOURS</h1>
-            <p>Mon: Closed</p>
-            <p>Tues-thurs: 10:00-16:00</p>
-            <p>Fri: 10:00-19:00</p>
-            <p>Satur: 9:00-16:00</p>
-            <p>Sun: 9:00-13:00</p>
-        </div>
-
-        <div class="visit-tag">
-            <h3 class="v">Visit</h3>
-            <img src="img/icon-Map.png" alt="map-icon" class="map-icon">
-            <p class="v">Our Location</p>
-            <li>Community Science Museum</li>
-            <li>Museum 38</li>
-            <li>500 Oslo street</li>
-            <br>
-        </div>
-
-        <div class="event-tag">
-            <h3>Special Events and Exhibitions</h3>
-            <li>Visiting Professor of Aeronautics</li>
-            <br>
-            <li>Night in the Museum</li>
-            <br>
-            <li>Energetica Exhibition on Loan</li>
-        </div>
-
-        <div class="r-m" id="r-m">
-
-            <div class="r-d"><h4 class="h4-tag" >Read More</h4></div>
+        <section class="mobile">
+            <div>
+                <img src="pic/solar-system.jpg" alt="solar-system" class="solar-system-img">
+            </div>
             
-            <img src="img/exhibition.jpg" alt="exhibition" class="pic-m">
-            <h4 class="h4-tag">The aim of our museum</h4>
-            <p class="p-tag">The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
-            
-            <img src="img/astronomy.jpg" alt="galaxy" class="pic-m">
-            <h4 class="h4-tag">History</h4>
-            <p class="p-tag">Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far away to the very building blocks of life itself.</p>
-           
-            <img src="img/over-1000-exhibits.jpg" alt="over-1000-exhibits" class="pic-m">
-            <h4 class="h4-tag">we have over 1000 different exhibits</h4>
-            <p class="p-tag">The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
-        </div>
+            <div class="csm-box">
+                <h1 class="csm-h1">Community Science Museum</h1>
+                <a href="html/Explore.html" class="explore-link">Explore</a>
+                <a href="html/Visit.html" class="visit-link">Visit</a>
+                <p class=Explore-together-p>"Explore together"</p>
+                <p>Come join us at the Community Science Museum where were committed to making science accessible to all.</p>
+            </div>
+    
+            <div class="img-text-box">
+                <img src="pic/exhibition.jpg" alt="exhibition-m" class="img">
+                <div class="p-div1">
+                    <p class="text-style">The aim of our museum</p>
+                    <p class="p">The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
+                </div>
+            </div>
+    
+            <div class="img-text-box">
+                <img src="pic/astronomy.jpg" alt="astronomy-m" class="img">
+                <div class="p-div2">
+                    <p class="text-style">History</p>
+                    <p class="p">Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far away to the very building blocks of life itself.</p>
+                    </div>
+            </div>
+    
+            <div class="img-text-box">
+                <img src="pic/ant.jpg" alt="ant-m" class="img">
+                <div class="p-div3">
+                    <p class="text-style">over 1000 different exhibits</p>
+                    <p class="p">The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
+                </div>
+            </div>
+        </section>
 
+        <section class="desktop">
+
+            <div>
+                <img src="pic/solar-system.jpg" alt="solar-system" class="solar-system-img">
+            </div>
+            
+            <div class="inline-bblock-style">
+                <div class="csm-box-d">
+                    <h1 class="csm-h1-d">Community Science Museum</h1>
+                    <a href="html/Explore.html" class="explore-link-d">Explore</a>
+                    <a href="html/Visit.html" class="visit-link-d">Visit</a>
+                    <p class=Explore-together-p-d>"Explore together"</p>
+                    <div class="text-p">
+                        <p>Come join us at the Community Science Museum</p>
+                        <p>where we're committed to making science</p>
+                        <p>accessible to all.</p>
+                    </div>
+
+                </div>
+                
+                <div class="black-box-for-time-list">
+                    <p class="intro-text">OPENING HOURS</p>
+                    <p class="time-tixt"><b class="kk">Monday</b> <b class="ff">we are Closed</b></p>
+                    <p class="time-tixt"><b class="kk">Tuesday</b> <b class="ff">10:00 - 16:00</b></p>
+                    <p class="time-tixt"><b class="kk">Wednesday</b> <b class="ff">10:00 - 16:00</b></p>
+                    <p class="time-tixt"><b class="kk">Thursday</b> <b class="ff">10:00 - 16:00</b></p>
+                    <p class="time-tixt"><b class="kk">Friday</b> <b class="ff">10:00 - 19:00</b></p>
+                    <p class="time-tixt"><b class="kk">Saturday</b> <b class="ff">9:00 - 16:00</b></p>
+                    <p class="time-tixt"><b class="kk">Sunday</b> <b class="ff">9:00 - 13:00</b></p>
+                </div>
+            </div>
+
+            <div class="inline-img-box">
+                <img src="pic/astronaut.jpg" alt="astronaut" class="img-inline">
+                <img src="pic/Woolly.jpg" alt="Woolly" class="img-inline">
+                <img src="pic/kids-laboratory.jpg" alt="historical" class="img-inline">
+                <img src="pic/museum-robot.jpg" alt="Astronomy" class="img-inline">
+            </div>
+
+            <div class="imd-text-box">
+                <div>
+                    <img src="pic/exhibition2.png" alt="exhibition" class="img-inline-2">
+                    <img src="pic/astronomy 2.png" alt="" class="img-inline-2">
+                    <img src="pic/ant2.png" alt="" class="img-inline-2">
+                </div>
+
+                <div class="left">
+                    <p class="bold-text">The aim of our museum</p>
+                    <p>The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
+                </div>
+
+                <div class="mid">
+                    <p class="bold-text">History</p>
+                    <p>Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far away to the very building blocks of life itself.</p>
+                </div>
+
+                <div class="right">
+                    <p class="bold-text">over 1000 different exhibits</p>
+                    <p>The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
+                </div>
+            </div>
+
+        </section>
     </main>
 
+    <!-- footer -->
     <footer>
+        <div class="s-m">
+            <img src="pic/icon-Facebook.png" alt="icon -Facebook" class="f">
+            <img src="pic/icon-Instagram.png" alt="icon-Instagram" class="g">
+        </div>
 
-            <div class="s-m">
-                <img src="img/icon-Facebook.png" alt="icon -Facebook" class="f-g">
-                <img src="img/icon-Instagram.png" alt="icon-Instagram" class="f-g">
-            </div>
+        <div>
+            <p class="c-u-text">CONTACT US</p>
+        </div>
+        
+        <div class="grp">
+            <p>+47 2342424</p>
+        </div>
 
-            <div class="grp">
-                <img src="img/icon-mail.png" alt="icon-mail" class="c-img"> 
-                <p>CommunityScienceMuseum@info.com</p>
-            </div>
-
-            <div class="grp">
-                <img src="img/icon-Phone.png" alt="icon-Phone" class="c-img">
-                <p>+47 2342424</p>
-            </div>
-
-            <div class="grp">
-                <img src="img/icon-Map.png" alt="icon-Map" class="c-img">
-                <p>Community Science Museum</p>
-                <p>Museum 38</p>
-                <p>500 Oslo street</p>
-            </div>
-            
-
-            <div class="copy">
-                <p>&copy; 2023 Community Science Museum</p>
-            </div>
-
+        <div class="grp">
+            <p>CommunityScienceMuseum@info.com</p>
+        </div>
+        
+        <div class="copy">
+            <p>&copy; 2023 Community Science Museum</p>
+        </div>
     </footer>
-
 </body>
 </html>
