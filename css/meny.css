@@ -60,46 +60,60 @@ nav ul li a:hover::before{
 
 /* footer style */
 footer{
-    background-color: rgba(0, 0, 0, 0.692);
+    background-color: rgba(0, 0, 0, 0.54);
     text-align: center;
     padding-bottom: 1%;
     font-size: 2vw;
-    margin-top: 2%;
+    margin-top: 10%;
 }
 
 footer div p{
     color: white;
     margin-top: -0.5%;
+
 }
 
-.f-g{
+.f{
     width: 5%;
     margin-bottom: 3%;
     margin-top: 3%;
-    margin-right: 5%;
-    margin-left: 5%;
-    
+    margin-right: 3%;
+    margin-left: 3%;
+    background-color: rgb(0, 4, 255);
 }
 
-.c-img{
-    width: 2%;
+.g{
+    width: 5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-left: 3%;
+    background-color: rgb(255, 0, 0);
+}
+
+
+
+.c-img-1{
+    width: 10%;
     height: 1%;
     margin-right: 2%;
 }
 
-.s-m{
-
-}
-
-.grp{
-    margin-top: 3%;
+.c-img-2{
+    width: 5%;
+    height: 1%;
+    margin-right: 2%;
 }
 
 .copy{
 
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
+.c-u-text{
+    font-size: 3.8vw;
+
+}
 
 
 /*mobil-menu-style*/
@@ -223,6 +237,10 @@ footer div p{
         color: rgb(255, 255, 255);
         font-size: 18px;
         text-transform: uppercase;
+    }
+    
+    footer{
+        font-size: 1vw;
     }
 
 }
