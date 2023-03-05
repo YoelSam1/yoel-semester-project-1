@@ -477,7 +477,7 @@ body {
 /* contact box style on page get involved */
 
 .Contact-box{
-    background-color: #597BF5;
+    background-color: #305cf8;
     color: white;
     padding-top: 2%;
     padding-bottom: 10%;
@@ -943,8 +943,8 @@ body {
     .contact-left{
         flex-basis: 60%;
         padding: px 200px;
-        background-color: #597BF5;
-        color: rgb(255, 0, 0);
+        background-color: #1c49ee;
+        color: rgb(255, 255, 255);
         padding-bottom: 3%;
         box-shadow: 1px 1px 4px 0 rgb(0, 0, 0);
     }
