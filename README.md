@@ -46,7 +46,7 @@ In summary, the "Community Science Museum Website" is a multifaceted project tha
 ### Installing
 
 ```bash
-git https://github.com/YoelSam1/yoel-semester-project-1.git
+https://github.com/YoelSam1/yoel-semester-project-1.git
 ```
 
 2. Website Live Demo:
