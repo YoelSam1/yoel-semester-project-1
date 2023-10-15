@@ -38,10 +38,11 @@ In summary, the "Community Science Museum Website" is a multifaceted project tha
 
 - The project features detailed exhibit pages with HTML and CSS to present the museum's collections and scientific concepts. This enhances the visitor's understanding and appreciation of the exhibits.
 
-## Built With
+## Built With Frontend Tools
 
 - HTML
 - CSS
+- Figma
 
 ### Installing
 
